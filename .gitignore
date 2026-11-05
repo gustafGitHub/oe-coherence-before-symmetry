@@ -1,0 +1,23 @@
+# Local article working copy (the article is published on Zenodo, not here)
+doc/
+
+# Lean / Lake build output (several GB after `lake exe cache get`)
+.lake/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store

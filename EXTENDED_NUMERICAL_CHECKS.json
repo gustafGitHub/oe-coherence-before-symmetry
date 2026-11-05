@@ -1,0 +1,177 @@
+{
+  "seed": 20261027,
+  "role": "Numerical cross-checks, not proofs",
+  "polygon": {
+    "samples": 20000,
+    "maximum_spectrum_error": 2.4424906541753444e-15
+  },
+  "block_checks": {
+    "samples": 200,
+    "max_vector_violation": 0.0,
+    "max_rank_violation": 0.0,
+    "max_sparse_violation": 0.0
+  },
+  "polar_qr_projector_error": 2.633581430616095e-15,
+  "group_checks": {
+    "samples": 30,
+    "max_defect_violation": 2.8466755402781586e-29,
+    "max_rounded_multiplication_error": 2.914202003719289e-15,
+    "max_covariance_error": 4.184153192106425e-15
+  },
+  "two_frame": {
+    "max_mean_error": 8.881784197001252e-16,
+    "max_concentration_violation": 0.0,
+    "values": [
+      {
+        "m": 2,
+        "lambda": 0.2,
+        "lambda_times_mean": 0.09666888677460105,
+        "limit": 1
+      },
+      {
+        "m": 2,
+        "lambda": 1.0,
+        "lambda_times_mean": 0.41802329313067343,
+        "limit": 1
+      },
+      {
+        "m": 2,
+        "lambda": 5.0,
+        "lambda_times_mean": 0.9660817254684788,
+        "limit": 1
+      },
+      {
+        "m": 2,
+        "lambda": 20.0,
+        "lambda_times_mean": 0.9999999587769273,
+        "limit": 1
+      },
+      {
+        "m": 2,
+        "lambda": 100.0,
+        "lambda_times_mean": 1.0,
+        "limit": 1
+      },
+      {
+        "m": 2,
+        "lambda": 300.0,
+        "lambda_times_mean": 1.0,
+        "limit": 1
+      },
+      {
+        "m": 3,
+        "lambda": 0.2,
+        "lambda_times_mean": 0.13108199884072355,
+        "limit": 2
+      },
+      {
+        "m": 3,
+        "lambda": 1.0,
+        "lambda_times_mean": 0.6077888088226673,
+        "limit": 2
+      },
+      {
+        "m": 3,
+        "lambda": 5.0,
+        "lambda_times_mean": 1.8244544243134644,
+        "limit": 2
+      },
+      {
+        "m": 3,
+        "lambda": 20.0,
+        "lambda_times_mean": 1.9999991755385156,
+        "limit": 2
+      },
+      {
+        "m": 3,
+        "lambda": 100.0,
+        "lambda_times_mean": 2.0,
+        "limit": 2
+      },
+      {
+        "m": 3,
+        "lambda": 300.0,
+        "lambda_times_mean": 2.0,
+        "limit": 2
+      },
+      {
+        "m": 4,
+        "lambda": 0.2,
+        "lambda_times_mean": 0.1484749733940495,
+        "limit": 3
+      },
+      {
+        "m": 4,
+        "lambda": 1.0,
+        "lambda_times_mean": 0.7093833072146377,
+        "limit": 3
+      },
+      {
+        "m": 4,
+        "lambda": 5.0,
+        "lambda_times_mean": 2.5189093973871324,
+        "limit": 3
+      },
+      {
+        "m": 4,
+        "lambda": 20.0,
+        "lambda_times_mean": 2.999991755381755,
+        "limit": 3
+      },
+      {
+        "m": 4,
+        "lambda": 100.0,
+        "lambda_times_mean": 3.0,
+        "limit": 3
+      },
+      {
+        "m": 4,
+        "lambda": 300.0,
+        "lambda_times_mean": 3.0,
+        "limit": 3
+      },
+      {
+        "m": 6,
+        "lambda": 0.2,
+        "lambda_times_mean": 0.16585966284322726,
+        "limit": 5
+      },
+      {
+        "m": 6,
+        "lambda": 1.0,
+        "lambda_times_mean": 0.811761865472588,
+        "limit": 5
+      },
+      {
+        "m": 6,
+        "lambda": 5.0,
+        "lambda_times_mean": 3.4319458097272157,
+        "limit": 5
+      },
+      {
+        "m": 6,
+        "lambda": 20.0,
+        "lambda_times_mean": 4.999725174860167,
+        "limit": 5
+      },
+      {
+        "m": 6,
+        "lambda": 100.0,
+        "lambda_times_mean": 5.0,
+        "limit": 5
+      },
+      {
+        "m": 6,
+        "lambda": 300.0,
+        "lambda_times_mean": 5.0,
+        "limit": 5
+      }
+    ]
+  },
+  "status": "PASS",
+  "not_numerically_established": [
+    "general-graph weak convergence",
+    "general-graph Laplace asymptotics"
+  ],
+  "notes": "Analytic proofs cover general fixed graphs. The script tests the two-frame special case; no MCMC claims."
+}

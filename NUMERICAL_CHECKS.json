@@ -1,0 +1,11 @@
+{
+  "seed": 20261026,
+  "triangle_checks": 1000,
+  "random_block_checks": 300,
+  "saturated_block_checks": 300,
+  "maximum_determinant_error": 1.341809314840962e-15,
+  "maximum_bound_violation": 0.0,
+  "maximum_exact_composition_error": 3.629081728580193e-15,
+  "status": "PASS",
+  "role": "Numerical cross-checks, not formal proofs"
+}

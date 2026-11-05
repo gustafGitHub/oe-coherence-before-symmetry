@@ -1,0 +1,1 @@
+Fresh Git-manifest build and audit passed. Six release inputs match tested archive inputs byte for byte; all dependency HEADs match manifest pins. No proof-body changes. Numerical results carried forward. PDF compiled and visually inspected. See logs and HOST_VERIFICATION.md for exact scope.

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article."
+# Add `doi:` (software DOI) here, and the article's Zenodo DOI under
+# preferred-citation, once they are known.
+title: "Coherence Before Symmetry: Lean formalization and numerical checks"
+type: software
+repository-code: "https://github.com/gustafGitHub/oe-coherence-before-symmetry"
+authors:
+  - family-names: Ullman
+    given-names: Gustaf
+version: "6"
+date-released: "2026-11-05"
+license: Apache-2.0
+keywords:
+  - positive kernels
+  - unitary representations
+  - Bargmann invariants
+  - Gibbs measures
+  - Lean 4
+  - mathlib
+  - observer equivariance
+preferred-citation:
+  type: report
+  title: "Coherence Before Symmetry: Positive Kernels, Random Frames, and Compatible Perspective Transformations"
+  authors:
+    - family-names: Ullman
+      given-names: Gustaf
+  year: 2026
+  month: 11
+  notes: "Version 6"

@@ -1,0 +1,39 @@
+import CoherentExtensions
+
+-- Audit all proved declarations and the unitary construction.
+#print axioms CoherentPerspectives.GramFamily.residual_sq
+#print axioms CoherentPerspectives.GramFamily.contraction
+#print axioms CoherentPerspectives.GramFamily.coherence_le
+#print axioms CoherentPerspectives.GramFamily.lossless_of_maximal_coherence
+#print axioms CoherentPerspectives.GramFamily.transport
+#print axioms CoherentPerspectives.GramFamily.diagonal
+#print axioms CoherentPerspectives.GramFamily.composition
+#print axioms CoherentPerspectives.GramFamily.composition_of_right_lossless
+#print axioms CoherentPerspectives.GramFamily.lossless_trans
+#print axioms CoherentPerspectives.GramFamily.maximal_coherence_composition
+#print axioms CoherentPerspectives.GramFamily.lossless_of_chain
+#print axioms CoherentPerspectives.GramFamily.lossless_of_connected_maximal
+#print axioms CoherentPerspectives.GramFamily.unitary
+#print axioms CoherentPerspectives.GramFamily.reference_factorization
+#print axioms CoherentPerspectives.GramFamily.triangle_holonomy
+#print axioms CoherentPerspectives.saturated_vectors
+#print axioms CoherentPerspectives.scalar_gram_composition
+#print axioms CoherentPerspectives.positive_matrix_gram
+#print axioms CoherentPerspectives.positive_saturated_composition
+#print axioms CoherentPerspectives.positive_saturated_factorization
+#print axioms CoherentPerspectives.phase_gauge_unique
+#print axioms CoherentPerspectives.positive_saturated_triangle
+#print axioms CoherentPerspectives.frustratedTriangle_not_positive
+
+#print axioms CoherentPerspectives.positive_block_gram
+#print axioms CoherentPerspectives.positive_block_saturated_composition
+#print axioms CoherentPerspectives.positive_block_unitary
+#print axioms CoherentPerspectives.positive_homogeneous_multiplicative
+#print axioms CoherentPerspectives.homogeneousMatrixHom
+#print axioms CoherentPerspectives.positive_homogeneous_unitary
+#print axioms CoherentPerspectives.GramFamily.vector_defect_bound
+#print axioms CoherentPerspectives.homogeneous_multiplicative
+#print axioms CoherentPerspectives.pure_gauge_trivialization
+#print axioms CoherentPerspectives.gauge_cocycle
+#print axioms CoherentPerspectives.constant_of_identity_covariance
+#print axioms CoherentPerspectives.descendedCocycleHom
