@@ -9,7 +9,7 @@ authors:
   - family-names: Ullman
     given-names: Gustaf
 version: "1"
-date-released: "2026-11-05"
+date-released: "2026-11-09"
 abstract: >-
   Lean 4/mathlib formalization and seeded numerical checks accompanying the
   article "Coherence Before Symmetry: Positive Kernels, Random Frames, and

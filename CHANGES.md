@@ -1,4 +1,4 @@
-# Version 1 — 5 November 2026
+# Version 1 — 9 November 2026
 
 First public release, accompanying version 1 of the article *Coherence Before
 Symmetry: Positive Kernels, Random Frames, and Compatible Perspective
