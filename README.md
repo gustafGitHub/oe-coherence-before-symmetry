@@ -1,8 +1,9 @@
 # Coherence Before Symmetry — Lean formalization and numerical checks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24077650.svg)](https://doi.org/10.5281/zenodo.24077650)
+
 Companion code to Gustaf Ullman, *Coherence Before Symmetry: Positive Kernels,
-Random Frames, and Compatible Perspective Transformations*, version 1
-(5 November 2026).
+Random Frames, and Compatible Perspective Transformations*, version 1.
 
 The article shows when positive comparisons between perspectives become a
 system of unitary transformations: maximal overlap forces exact composition,
@@ -11,7 +12,9 @@ function with maximal overlap must itself be a unitary representation. This
 repository contains the Lean 4/mathlib formalization of the core reconstruction
 and the seeded numerical checks. The article itself is archived on Zenodo.
 
-<!-- Add the article DOI (Zenodo) here once it is known. -->
+- Article: [doi:10.5281/zenodo.23974772](https://doi.org/10.5281/zenodo.23974772)
+- This software, all versions: [doi:10.5281/zenodo.24077650](https://doi.org/10.5281/zenodo.24077650);
+  version 1: [doi:10.5281/zenodo.24077651](https://doi.org/10.5281/zenodo.24077651)
 
 ## Contents
 
@@ -76,4 +79,4 @@ Attribution 4.0 International.
 
 ## Citation
 
-Please cite the article; see `CITATION.cff`.
+Please cite the article, doi:10.5281/zenodo.23974772; see `CITATION.cff`.

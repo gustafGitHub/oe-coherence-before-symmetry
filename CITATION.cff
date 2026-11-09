@@ -1,10 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the article."
-# Add `doi:` (software DOI) here, and the article's Zenodo DOI under
-# preferred-citation, once they are known.
 title: "Coherence Before Symmetry: Lean formalization and numerical checks"
 type: software
 repository-code: "https://github.com/gustafGitHub/oe-coherence-before-symmetry"
+doi: 10.5281/zenodo.24077650
 authors:
   - family-names: Ullman
     given-names: Gustaf
@@ -39,3 +38,6 @@ preferred-citation:
   year: 2026
   month: 11
   notes: "Version 1"
+  doi: 10.5281/zenodo.23974772
+  publisher:
+    name: Zenodo
