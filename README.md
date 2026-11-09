@@ -1,7 +1,7 @@
 # Coherence Before Symmetry — Lean formalization and numerical checks
 
 Companion code to Gustaf Ullman, *Coherence Before Symmetry: Positive Kernels,
-Random Frames, and Compatible Perspective Transformations*, version 6
+Random Frames, and Compatible Perspective Transformations*, version 1
 (5 November 2026).
 
 The article shows when positive comparisons between perspectives become a
@@ -19,7 +19,7 @@ and the seeded numerical checks. The article itself is archived on Zenodo.
 - `CoherentExtensions.lean`: block positivity in arbitrary finite dimension,
   homogeneous representations, vector defect bound, and cocycle algebra.
 - `Audit.lean`, `AXIOM_AUDIT.txt`, `BUILD_LOG.txt`, `CACHE_LOG.txt`,
-  `DEPENDENCY_REVISIONS.txt`: version 6 build and axiom audit.
+  `DEPENDENCY_REVISIONS.txt`: build and axiom audit.
 - `HOST_VERIFICATION.md`: environment of that run and the macOS 26 linker settings.
 - `LEAN_COVERAGE.md`: exact coverage and exclusions.
 - `verify_model.py`, `verify_extensions.py`: seeded numerical checks; they also
@@ -27,7 +27,6 @@ and the seeded numerical checks. The article itself is archived on Zenodo.
 - `NUMERICAL_CHECKS.json`, `EXTENDED_NUMERICAL_CHECKS.json`: recorded results.
 - `verify_release.sh`, `SHA256SUMS.txt`: checksum, build and audit check.
 - `CHANGES.md`, `CITATION.cff`.
-- `history/`: the version 5 Linux verification records.
 
 ## Lean build
 

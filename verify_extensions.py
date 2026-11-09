@@ -1,4 +1,4 @@
-"""Seeded numerical checks of draft 3 additions, not proofs.
+"""Seeded numerical checks of the extended results, not proofs.
 Running this imports verify_model, reproducing its checks and figure too.
 Requirements: numpy, scipy, matplotlib.
 """

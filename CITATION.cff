@@ -8,8 +8,19 @@ repository-code: "https://github.com/gustafGitHub/oe-coherence-before-symmetry"
 authors:
   - family-names: Ullman
     given-names: Gustaf
-version: "6"
+version: "1"
 date-released: "2026-11-05"
+abstract: >-
+  Lean 4/mathlib formalization and seeded numerical checks accompanying the
+  article "Coherence Before Symmetry: Positive Kernels, Random Frames, and
+  Compatible Perspective Transformations" (version 1). Starting from finite
+  block-matrix positivity in arbitrary dimension, the Lean libraries verify
+  that maximal overlap forces positive comparison kernels to compose as
+  unitary transformations, and that saturated homogeneous data over a finite
+  group form a unitary representation. The 35-declaration axiom audit uses
+  only standard logical axioms. The Python scripts check the triangle
+  positivity criterion, defect and rank bounds, finite-group rounding, and
+  the exact two-frame law.
 license: Apache-2.0
 keywords:
   - positive kernels
@@ -27,4 +38,4 @@ preferred-citation:
       given-names: Gustaf
   year: 2026
   month: 11
-  notes: "Version 6"
+  notes: "Version 1"

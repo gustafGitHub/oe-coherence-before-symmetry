@@ -1,4 +1,4 @@
-# Version 6 verification environment
+# Verification environment
 
 5 November 2026. macOS 26.6.2 (Apple silicon, arm64), official Lean 4.19.0
 release (commit 6caaee842e94) installed by elan, Apple clang 21.0.0.
@@ -38,11 +38,9 @@ library, manifest, or dependency source was modified. They should not be
 needed on Linux; earlier macOS versions were not tested.
 
 CACHE_LOG.txt, BUILD_LOG.txt, AXIOM_AUDIT.txt and DEPENDENCY_REVISIONS.txt
-record this run. AXIOM_AUDIT.txt and DEPENDENCY_REVISIONS.txt are byte for
-byte identical to the version 5 records from Linux in
-`history/v5_linux_verification/`.
+record this run.
 
-The numerical scripts are unchanged since version 3. On the same machine
+The recorded JSON reports were produced earlier with the same scripts. On this machine
 (Python 3.9.6, numpy 2.0.2, scipy 1.13.1, matplotlib 3.9.4) they again report
 PASS. All non-floating-point fields of both JSON reports are identical to the
 recorded reports, and floating-point values differ by at most 1.4e-15. The

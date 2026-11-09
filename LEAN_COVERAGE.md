@@ -1,7 +1,7 @@
-# Lean coverage — version 6
+# Lean coverage
 
 Lean 4.19.0; mathlib c44e0c8ee63ca166450922a373c7409c5d26b00b.
-Both libraries were rebuilt for version 6 from a fresh copy of the sources, using the unchanged distributed Git manifest. All 35 declarations in Audit.lean were audited again; the result is identical to the version 5 audit. Exact dependency revisions are recorded in DEPENDENCY_REVISIONS.txt. Since version 5 only the comment headers of the two Lean libraries changed; no statement or proof changed.
+Both libraries were built from a fresh copy of the sources, using the pinned Git manifest. All 35 declarations in Audit.lean were audited. Exact dependency revisions are recorded in DEPENDENCY_REVISIONS.txt.
 
 ## Original core: CoherentPerspectives.lean
 
